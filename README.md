@@ -8,8 +8,13 @@ Website dipublikasikan melalui GitHub Pages:
 
 **[https://mathlover16.github.io/Web-Porto/](https://mathlover16.github.io/Web-Porto/)**
 
-Setiap push ke branch `master` akan memicu deployment otomatis. Deployment pertama mungkin memerlukan beberapa menit sebelum website dapat dibuka.
-GitHub Pages perlu menggunakan sumber **GitHub Actions** di pengaturan **Settings → Pages** repositori.
+Untuk menerbitkan website melalui GitHub Pages:
+
+1. Buka [Settings → Pages](https://github.com/mathlover16/Web-Porto/settings/pages).
+2. Pada **Build and deployment**, pilih **Deploy from a branch**.
+3. Pilih branch `master` dan folder `/(root)`, lalu simpan.
+
+Setelah itu, setiap push ke branch `master` akan memperbarui website secara otomatis. Deployment pertama mungkin memerlukan beberapa menit.
 
 ## Fitur
 
@@ -46,7 +51,7 @@ Library frontend disertakan di dalam repositori. Google Fonts (Inter) dimuat dar
    python -m http.server 8000
    ```
 
-3. Buka [http://localhost:8000/version-5.html](http://localhost:8000/version-5.html).
+3. Buka [http://localhost:8000/](http://localhost:8000/) untuk diarahkan ke halaman portofolio.
 
 Tidak diperlukan proses build atau instalasi package.
 
@@ -59,8 +64,8 @@ Tidak diperlukan proses build atau instalasi package.
 ├── img/                 # Foto profil, aset skill, dan gambar proyek
 ├── js/                  # Library dan script interaksi website
 ├── video/               # Aset video
+├── index.html           # Redirect untuk alamat GitHub Pages
 ├── version-5.html       # Halaman utama portofolio
-├── .github/workflows/   # Otomatisasi deployment GitHub Pages
 └── README.md
 ```
 
