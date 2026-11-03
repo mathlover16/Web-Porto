@@ -9,6 +9,7 @@ Website dipublikasikan melalui GitHub Pages:
 **[https://mathlover16.github.io/Web-Porto/](https://mathlover16.github.io/Web-Porto/)**
 
 Setiap push ke branch `master` akan memicu deployment otomatis. Deployment pertama mungkin memerlukan beberapa menit sebelum website dapat dibuka.
+GitHub Pages perlu menggunakan sumber **GitHub Actions** di pengaturan **Settings → Pages** repositori.
 
 ## Fitur
 
