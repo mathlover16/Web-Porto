@@ -75,4 +75,4 @@ Tidak diperlukan proses build atau instalasi package.
 - Sesuaikan tata letak dan gaya di `css/main.css`.
 - Simpan aset gambar atau video di folder `img/` atau `video/`, lalu perbarui referensinya di HTML.
 
-Formulir kontak saat ini hanya berupa tampilan frontend dan belum terhubung ke layanan pengiriman pesan atau backend.
+Formulir kontak menggunakan [FormSubmit](https://formsubmit.co/) untuk meneruskan pesan ke email pemilik situs. Pada pengiriman pertama, pemilik harus menyetujui email aktivasi dari FormSubmit sebelum pesan dapat diterima. FormSubmit memproses data yang dikirim melalui formulir.
