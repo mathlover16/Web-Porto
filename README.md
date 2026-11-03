@@ -2,6 +2,14 @@
 
 Website portofolio pribadi untuk menampilkan profil, pengalaman, layanan, keahlian, proyek, dan informasi kontak Prayuda Zaky Al Mahdi.
 
+## Website
+
+Website dipublikasikan melalui GitHub Pages:
+
+**[https://mathlover16.github.io/Web-Porto/](https://mathlover16.github.io/Web-Porto/)**
+
+Setiap push ke branch `master` akan memicu deployment otomatis. Deployment pertama mungkin memerlukan beberapa menit sebelum website dapat dibuka.
+
 ## Fitur
 
 - Halaman profil dengan navigasi ke setiap bagian.
@@ -51,6 +59,7 @@ Tidak diperlukan proses build atau instalasi package.
 ├── js/                  # Library dan script interaksi website
 ├── video/               # Aset video
 ├── version-5.html       # Halaman utama portofolio
+├── .github/workflows/   # Otomatisasi deployment GitHub Pages
 └── README.md
 ```
 
