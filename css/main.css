@@ -607,6 +607,41 @@ section{
   z-index: 10;
 }
 
+.language-switch{
+  position: fixed;
+  top: 60px;
+  right: 150px;
+  display: flex;
+  width: max-content;
+  max-width: none;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 5px;
+  border: 1px solid #505050;
+  border-radius: 12px;
+  background: #000;
+  z-index: 11;
+}
+
+.language-option{
+  min-width: 38px;
+  padding: 8px 9px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #a6a6a6;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: color .3s ease, background-color .3s ease;
+}
+
+.language-option:hover,
+.language-option.active{
+  background: #ffffff1a;
+  color: #fff;
+}
+
 .hamburger span{
   width: calc(100% - 10px);
   height: 1px;
@@ -1118,6 +1153,11 @@ select:focus-visible {
     right: 30px;
     position: fixed;
     top: 30px;
+  }
+
+  .language-switch{
+    top: 30px;
+    right: 110px;
   }
 
   section{
