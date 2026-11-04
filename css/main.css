@@ -970,6 +970,10 @@ section{
   flex-wrap: wrap;
 }
 
+.skills-title-main [data-i18n="skills.title1"]{
+  margin-right: .25em;
+}
+
 .skill-card-wrapper{
   text-align: center;
   padding-right: 32px;

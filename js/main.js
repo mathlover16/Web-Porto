@@ -47,6 +47,9 @@ $(document).ready(function() {
       "date.february2025": "February 2025 – June 2025",
       "date.2024": "August 2024 – December 2024",
       "date.august2024": "August 2024 – December 2025",
+      "company.environment": "Ministry of Environment of the Republic of Indonesia",
+      "company.university": "State Islamic University of Maulana Malik Ibrahim",
+      "company.trade": "Ministry of Trade of the Republic of Indonesia",
       "services.badge": "SERVICES",
       "services.title1": "Solutions That",
       "services.title2": "Empower Your Brand",
@@ -61,8 +64,8 @@ $(document).ready(function() {
       "service.seo": "SEO & Performance Optimization",
       "service.seoDescription": "Search engine optimization and website performance optimization to improve visibility and user experience.",
       "skills.badge": "SKILLS",
-      "skills.title1": "My ",
-      "skills.title2": "Superpowers",
+      "skills.title1": "My",
+      "skills.title2": "Ability",
       "projects.badge": "PROJECTS",
       "projects.title": "Gallery",
       "projects.imageAlt": "Ministry of Trade database project",
@@ -127,6 +130,9 @@ $(document).ready(function() {
       "date.february2025": "Februari 2025 – Juni 2025",
       "date.2024": "Agustus 2024 – Desember 2024",
       "date.august2024": "Agustus 2024 – Desember 2025",
+      "company.environment": "Kementerian Lingkungan Hidup Republik Indonesia",
+      "company.university": "Universitas Islam Negeri Maulana Malik Ibrahim",
+      "company.trade": "Kementerian Perdagangan Republik Indonesia",
       "services.badge": "LAYANAN",
       "services.title1": "Solusi untuk",
       "services.title2": "Mengembangkan Merek Anda",
@@ -141,8 +147,8 @@ $(document).ready(function() {
       "service.seo": "Optimasi SEO & Performa",
       "service.seoDescription": "Optimasi mesin pencari dan performa situs web untuk meningkatkan visibilitas serta pengalaman pengguna.",
       "skills.badge": "KEAHLIAN",
-      "skills.title1": "Keahlian ",
-      "skills.title2": "Andalan Saya",
+      "skills.title1": "Keahlian",
+      "skills.title2": "Saya",
       "projects.badge": "PROYEK",
       "projects.title": "Galeri",
       "projects.imageAlt": "Proyek basis data Kementerian Perdagangan",
@@ -339,6 +345,4 @@ $(document).ready(function() {
   });
 
 });
-
-
 
